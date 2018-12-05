@@ -1,0 +1,705 @@
+.self-content {
+    max-width:1200px;
+    padding:4rem 15px 0;
+    margin:auto;
+}
+#header {
+    position:fixed;
+    width:100%;
+    height:4rem;
+    left:0;
+    top:0;
+    z-index:99;
+}
+.out-banner {
+    background:url("../images/bg-header.jpg");
+}
+.nav-content {
+    max-width:1200px;
+    padding:0 15px;
+    margin:auto;
+}
+#logo {
+    font-size:2rem;
+    color:#fff;
+    line-height:4rem;
+    font-family:SC-Heavy;
+}
+nav ul li {
+    float:left;
+    margin-left:2rem;
+    height:4rem;
+}
+nav a {
+    color:#ccc;
+    font-size:0.8rem;
+    vertical-align:middle;
+    height:2rem;
+    line-height:2rem;
+    margin:1rem 0 0;
+}
+nav b {
+    display:block;
+    margin:auto;
+    height:0.2rem;
+    background:#FBB21D;
+    width:80%;
+    display:none;
+}
+nav a:hover {
+    color:#FBB21D;
+}
+nav a:hover b {
+    display:block;
+}
+nav .active a {
+    color:#FBB21D;
+}
+nav .active b {
+    display:block;
+}
+.lang {
+    font-size:10px;
+    width:24px;
+    height:24px;
+    border:1.5px solid #fff;
+    text-align:center;
+    line-height:20px;
+    border-radius:100%;
+}
+.lang:hover {
+    border:1.5px solid #FBB21D;
+}
+.btn-men {
+    float:right;
+    display:none;
+    width:48px;
+    height:80px;
+    line-height:80px;
+    text-align:center;
+}
+.btn-men img {
+    width:32px;
+    margin-top: 24px;
+}
+#banner {
+    background-color:rgba(35,37,48,1);
+    background-image:url("../images/banner.png");
+    background-size:cover;
+    color:#fff;
+    overflow:auto;
+    padding-bottom:2.4rem;
+}
+#banner h3 {
+    font-size:1.8rem;
+    margin-top:10rem;
+}
+#banner h2 {
+    font-size:2.4rem;
+}
+#banner p {
+    font-size:14px;
+    line-height:2.2;
+    margin:2.4rem 40px 0;
+}
+.who-we-are {
+    background-image:url("../images/bg-who.png");
+    background-position:left bottom;
+    background-repeat:no-repeat;
+    background-size:60%;
+}
+.who-we-are .self-content {
+    padding-bottom:0;
+}
+.who-we-are h2,.vision h2 {
+    font-size:2.2rem;
+}
+.title-line b,.title-line span {
+    height:2px;
+    background:#FBB21D;
+    width:6rem;
+    display:block;
+    margin-top:0.5rem;
+}
+.title-line span {
+    margin-bottom:5rem;
+    width:8rem;
+    margin-left:3rem;
+}
+.who-we-are .about-text,.who-we-are .about-img,.vision-img,.vision-text {
+    width:50%;
+}
+.who-we-are .about-text {
+    padding-right:2.6rem;
+}
+.who-we-are p {
+    font-size:14px;
+    line-height:2.2;
+    margin-bottom:1rem;
+}
+.about-img {
+    position:relative;
+    height:20rem;
+}
+.about-img div {
+    position: absolute;
+    width:24rem;
+    height:22rem;
+    background:#FBB21D;
+    z-index:-1;
+    right:0;
+    bottom:0;
+}
+.about-img img {
+    position: absolute;
+    right:1rem;
+    bottom:1rem;
+}
+.vision {
+    background:#FCFCFC;
+    margin-top:3rem;
+    padding:6rem 0;
+}
+.vision .title-line span,.vision .title-line b {
+    margin-left:auto;
+}
+.vision .title-line span {
+    margin-right:3rem;
+}
+.vision-img div {
+    max-width:480px;
+    height:492px;
+    background:#1D1F2A;
+    margin-left:auto;
+    position:relative;
+}
+.vision-img img {
+    position:absolute;
+    width:140%;
+    right:0;
+    top:-2rem;
+}
+.vision p {
+    font-size:14px;
+    line-height:2.2;
+    margin-bottom:1rem;
+}
+.vision-text {
+    background:#1D1F2A;
+}
+.vision-text >div {
+    max-width:600px;
+    padding:1.6rem 0 2.4rem 1.6rem;
+    color:#fff;
+    height:492px;
+}
+.title {
+    max-width:33.3rem;
+    margin:0 auto 6rem;
+    text-align:center;
+    height:6rem;
+    position:relative;
+}
+.title p {
+    font-size:6rem;
+    font-family:SC-Heavy;
+    color:#f7f7f7;
+    line-height:1;
+}
+.title div {
+    position:absolute;
+    width:100%;
+    text-align:center;
+    top:3rem;
+}
+.title h2 {
+    font-size:2.2rem;
+    font-family:SC-Bold;
+}
+.title b {
+    height:4px;
+    width:6rem;
+    background:#FBB21D;
+}
+#advantage {
+    padding-bottom:3.6rem;
+}
+#advantage ul {
+    margin:0 -32px;
+}
+#advantage li {
+    float:left;
+    width:25%;
+    padding:0 1.2rem;
+    text-align:center;
+}
+#advantage li div {
+    width:8rem;
+    height:8rem;
+    position:relative;
+    margin:0 auto 1.6rem;
+    border-radius:100%;
+    background:#F6F7FB;
+}
+#advantage li div img {
+    height:3.6rem;
+    width:auto;
+    margin-top:2rem;
+}
+#advantage li h3 {
+    margin-bottom:2rem;
+    font-family:SC-Bold;
+}
+#advantage li p {
+    font-size:14px;
+    line-height:2.2;
+}
+#product {
+    background-color:rgba(35,37,48,1);
+    height:800px;
+    background-image:url("../images/bg-product.png");
+    background-size:cover;
+}
+#product h2 {
+    color:#fff;
+}
+.swiper-box {
+    background:#FBB21D;
+}
+.swiper-container {
+    padding:4rem 0 2rem;
+    max-width:52rem;
+}
+.swiper-button-prev {
+    background-image:url("../images/icon-prev.png");
+}
+.swiper-button-next{
+    background-image:url("../images/icon-next.png");
+}
+#product h3 {
+    font-size:1.6rem;
+    color:#fff;
+    margin:1.2rem 0 2.4rem;
+}
+#product img {
+    width:4rem;
+}
+#product p {
+    font-size:18px;
+    line-height:2.4;
+    max-width:860px;
+    margin:auto;
+}
+#product table {
+    width:100%;
+    text-align:center;
+    margin-top:3.6rem;
+}
+#product table img {
+    width:1.8rem;
+    vertical-align:middle;
+}
+#product table span {
+    vertical-align:middle;
+    font-size:14px;
+    margin-left:0.4rem;
+}
+#service {
+    margin-top:4rem;
+}
+#service ul {
+    padding:1.2rem 3.2rem 0;
+    background:#F7F7F8;
+}
+#service li {
+    float:left;
+    width:50%;
+    padding:0 3rem 1.2rem;
+    margin-top:3.2rem;
+    background:#F7F7F8;
+    position:relative;
+}
+#service li div {
+    height:640px;
+    background:#fff;
+    box-shadow:0px 0px 32px rgba(0,0,0,0.06);
+}
+#service li h3 {
+    font-family:SC-Bold;
+    color:#000;
+    margin:2.4rem 0 1.2rem;
+    padding-left:2.4rem;
+}
+#service li p {
+    padding-left:2.4rem;
+    font-size:16px;
+    line-height:2.4;
+}
+#service li b {
+    width:15px;
+    height:15px;
+    line-height:10px;
+    border:1px solid #FBB21D;
+    border-radius:100%;
+    text-align:center;
+    vertical-align:top;
+    margin-top:0.6rem;
+}
+#service li a {
+    width:9px;
+    height:9px;
+    border:1px solid #FBB21D;
+    border-radius:100%;
+}
+#service li span {
+    vertical-align:top;
+    margin-left:0.5rem;
+    width:16rem;
+}
+#team {
+
+}
+#team li {
+    float:left;
+    width:25%;
+    padding:1.2rem 1.4rem;
+}
+#team li h3 {
+    font-family:SC-Bold;
+    font-size:24px;
+    margin:1.2rem 0 0.6rem;
+}
+#team li p {
+    font-size:13px;
+    text-align:left;
+    line-height:2;
+    margin-top:1.8rem;
+}
+#partnet li {
+    padding:1.2rem 2.4rem;
+    float: left;
+    width:25%;
+}
+#partnet li a {
+    display:block;
+    width:100%;
+    text-align:center;
+    float: left;
+    height:6rem;
+    line-height:4.6rem;
+}
+.mastercard {
+    width:60%;
+}
+#footer {
+    background-color:rgba(35,37,48,1);
+    background-image:url("../images/bg-product.png");
+    background-size:cover;
+    color:#fff;
+    padding-bottom:4rem;
+}
+#footer ul {
+    font-size:0;
+}
+#footer ul li {
+    display:inline-block;
+    vertical-align:top;
+    width:33.33%;
+    padding-left:1.4rem;
+}
+#footer ul h3 {
+    font-family:SC-Bold;
+    font-size:20px;
+    margin-bottom:0.9rem;
+}
+#footer ul h4 {
+    font-size:16px;
+    margin-bottom:1.2rem;
+}
+#footer ul p {
+    font-size:14px;
+    line-height:2.2;
+}
+@media (max-width:1600px ) {
+    #banner h3 {
+        margin-top: 6rem;
+    }
+}
+@media (max-width:1240px ) {
+    .vision-text {
+        padding-right:15px;
+    }
+    #advantage ul {
+        margin:0;
+    }
+    #advantage li h3 {
+
+
+        font-size:18px;
+    }
+}
+@media (max-width:1199px ) {
+    #service li {
+        padding: 0 1.2rem 1.2rem;
+    }
+    #service li div {
+        height:680px;
+    }
+}
+@media (max-width:1100px ) {
+    .who-we-are .about-text {
+        padding-right:1.6rem;
+    }
+    .about-img {
+        padding-top:10rem;
+    }
+    .about-img div {
+        width: 16rem;
+        height: 16rem;
+    }
+    #service ul {
+        padding: 1.2rem 1.2rem 0;
+    }
+}
+@media (max-width:1024px ) {
+    .title-line span {
+        margin-bottom:3rem;
+    }
+    #product p {
+        font-size:16px;
+        padding:0 1.2rem;
+        line-height:1.6;
+    }
+    .swiper-container {
+        padding:2rem 0;
+    }
+    #product img {
+        width:3rem;
+    }
+    #product h3 {
+        font-size:1.2rem;
+    }
+    #product table img {
+        width:1.2rem;
+    }
+    #product table span {
+        font-size:13px;
+    }
+}
+@media (max-width:992px ) {
+    .self-content {
+        max-width:440px;
+        padding:1.2rem 15px 0;
+    }
+    #banner h3 {
+        margin-top:5.6rem;
+    }
+    #banner p {
+        margin: 1.2rem 0.6rem 0;
+        line-height:1.8;
+    }
+    .who-we-are {
+        background-size:cover;
+        padding-bottom:1.2rem;
+    }
+    .who-we-are .about-text, .who-we-are .about-img, .vision-img, .vision-text  {
+        float: none;
+        width:100%;
+    }
+    .about-img {
+        padding-top:0;
+        height:auto;
+    }
+    .about-img img {
+        width: 326px;
+    }
+    .about-img div {
+        position:initial;
+        width:320px;
+        height:240px;
+        margin-left:auto;
+    }
+    .who-we-are .about-text {
+        padding-right:0;
+        padding-top:0.6rem;
+    }
+    .vision {
+        margin-top:0;
+        padding:1.2rem 0;
+    }
+    .vision-img, .vision-text {
+        max-width:480px;
+        margin:auto;
+    }
+    .vision-img div {
+        max-width:initial;
+        height:auto;
+        background:none;
+        margin-left:0;
+        font-size:0;
+    }
+    .vision-img img {
+        position:initial;
+        width:100%;
+    }
+    .vision-text >div {
+        max-width:initial;
+        height:auto;
+    }
+    .title p {
+        font-size:3.2rem;
+    }
+    .title {
+        height:1rem;
+    }
+    .title h2 {
+        font-size:1.8rem;
+    }
+    .title b {
+        height:2px;
+        width:4rem;
+
+    }
+    .title div {
+        top:1rem;
+    }
+    #advantage li {
+        float:none;
+        width:100%;
+        margin-bottom:1.2rem;
+    }
+    #advantage li p {
+        line-height: 1.8;
+    }
+    #service {
+
+    }
+    #service li {
+        width:100%;
+        float:none;
+        margin-top:1.2rem;
+        padding:0;
+    }
+    #product img {
+        width:2.4rem;
+    }
+    #product h3 {
+        font-size:0.9rem;
+        margin: 0.4rem 0 0.9rem;
+    }
+    #product p {
+        font-size:14px;
+        padding: 0 3.2rem;
+    }
+    #product table {
+        padding-left:3.2rem;
+        margin-top:1.2rem;
+    }
+    #product table td {
+        width:100%;
+        display:block;
+        text-align:left;
+        padding:0.4rem;
+    }
+    #service ul {
+        padding:0;
+    }
+    #service li div {
+        height:620px;
+    }
+    #service li h3 {
+        padding-left:1.2rem;
+    }
+    #service li p {
+        padding-left:1.2rem;
+    }
+    #service li span {
+        font-size:14px;
+        width:12rem;
+    }
+    #team li {
+        float:none;
+        width:100%;
+    }
+    #partnet li {
+        width:50%;
+        padding: 0rem 1.6rem;
+    }
+    #service li span {
+        width:13rem;
+    }
+    #footer ul li {
+        width:100%;
+        display:block;
+        margin-top:0.4rem;
+    }
+    #footer ul p {
+        color:#ccc;
+    }
+}
+@media (max-width:768px) {
+    #header {
+        background: url(../images/bg-header.jpg);
+    }
+    .btn-men {
+        display:block;
+    }
+    #logo {
+        font-size:1.6rem;
+    }
+    .lang {
+        border-color:#333;
+    }
+    nav {
+        position:fixed;
+        width:100%;
+        left:0;
+        top:80px;
+        background:#fff;
+        color:#333;
+        box-shadow: 0px 0px 32px rgba(0,0,0,0.06);
+        font-size:0;
+        display:none;
+    }
+    nav ul li {
+        float:none;
+        line-height:2.44rem;
+        height:2.44rem;
+        margin-left:0;
+        font-size:0;
+        border-bottom:1px solid #ccc;
+    }
+    nav a {
+        color:#333;
+        display:block;
+        margin-top:0;
+        height:2.4rem;
+        line-height:2.4rem;
+        font-size:0.7rem;
+        padding-left:2rem;
+
+    }
+    nav .active a {
+        border-bottom:1px solid #FBB21D;
+        background:#FBB21D;
+        color:#fff;
+    }
+    nav a:hover b {
+        display:none;
+    }
+    nav .active b {
+        display:none;
+    }
+    nav .active .lang {
+        border-color:#fff;
+    }
+    #banner h3 {
+        font-size:1.4rem;
+    }
+    #banner h2 {
+        font-size:1.6rem;
+    }
+    .title-line h2,.title h2 {
+        font-size:1.4rem;
+    }
+}
